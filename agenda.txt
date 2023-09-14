@@ -1,0 +1,40 @@
+13/09/2023 - 19:00 ~ 23:15 ( Lucas, Cairo e Eduardo)
+
+	Plano de Negócio: 
+
+		Definido as dez regras iniciais em grupo
+		Definindo responsável = Eduardo
+		Responsável irá eleborar o documento
+
+ 	Tema: 
+
+		Definido tema em grupo
+		Tema estudio de tatuagem
+
+	Layout
+
+		Definido parâmetro em grupo
+		Distribuição; 
+			Cairo = "Página "inicial", pagina "sobre nós"
+			Eduardo = Paginas " Agendamento" e "cadastro"
+			Lucas = Pagina " Perfil dos profissionais"
+
+	Centralização
+
+		Definido repositório em grupo
+		Contribuições de integrantes centralizadas ao GitHub
+
+	Obrigações
+
+		Cairo = Responsável pela padronização de layouts do grupo
+		Lucas = Fiscalização geral e controle de agenda
+		Eduardo = Conformização de documentos				
+
+		 	
+
+	
+		
+	
+
+	
+
