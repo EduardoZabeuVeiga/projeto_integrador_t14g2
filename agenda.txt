@@ -28,7 +28,18 @@
 
 		Cairo = Responsável pela padronização de layouts do grupo
 		Lucas = Fiscalização geral e controle de agenda
-		Eduardo = Conformização de documentos				
+		Eduardo = Conformização de documentos
+
+14/09/2023 - 20:15 ~ 21:30 ( Lucas, Eduardo, Cairo, Eric)
+	
+	Reunião em grupo
+
+		 Apresentação do projeto para integração de Eric e Alexandre. 
+		 Definida reunião com o professor na parte da manha - 15/09 
+			Apresentação do projeto
+			Horário entre 08:00 ~ 10:00
+
+	  						
 
 		 	
 
