@@ -1,4 +1,4 @@
-13/09/2023 - 19:00 ~ 23:15 ( Lucas, Cairo e Eduardo)
+13/09/2023 - 19:00 ~ 23:15 (Cairo, Eduardo, Lucas)
 
 	Plano de Negócio: 
 
@@ -30,7 +30,7 @@
 		Lucas = Fiscalização geral e controle de agenda
 		Eduardo = Conformização de documentos
 
-14/09/2023 - 20:15 ~ 21:30 ( Lucas, Eduardo, Cairo, Eric)
+14/09/2023 - 20:15 ~ 21:30 (Cairo,Eduardo, Eric, Lucas)
 	
 	Reunião em grupo
 
@@ -38,17 +38,28 @@
 		 Definida reunião com o professor na parte da manha - 15/09 
 			Apresentação do projeto
 			Horário entre 08:00 ~ 10:00
-
 	  						
 15/09/2023 - Pauta
 	
 	Obs
-
 		 Consentimento de publicação de serviço, tem que estar adequado ao LGPD.
 		 Agendar reunião em grupo para abordar o tema. 	
 
 	
-		
+20/09/2023 - 11:00 ~ 12:15 (Cairo, Eduardo, Eric, Lucas)	
+
+		Reunião em grupo
+
+		Atualização do plano de negócios
+		Discussão e elaboração da estrutura HTML
+		Definição das atividades relacionadas a Sprint
+
+22/09/2023 - 22:30
+
+                           		
+	Reunião em grupo	
+
+	
 	
 
 	
