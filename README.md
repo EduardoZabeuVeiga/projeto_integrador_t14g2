@@ -1,27 +1,29 @@
 Projeto Integrador Turma 14 Grupo  2
 
-        Meta do Grupo para Sprint I
+        Meta do Grupo para Sprint II - 
+
+	            Criar 5 codigos para os layouts da Sprint I;
+	            
+	            Usar todas as tags estipiladas em reunião;
+	            
+	            Atualizar conteudo toda sexta feira de cada semana ao GitHub;
+	            
+	            Distribuir Funções;
+	            
+	            Criar video com as mudanças da pagina;
+	
+	            Definir Hierarquia de Paginas;
+	
+	            Garantir inclusao de Mudanças ao "Plano de Negocio";
+
+        REGRAS PARA ENTREGA - 26/09/2023
         
-            Definir plano de negocio.
-          
-            Definir Tema.
-          
-            Definir Layout.
-          
-            Centralizar Informaçôes e Unificar Mao de Obra.
-          
-            Distribuir Funções
-          
-        REGRAS PARA ENTREGA
-        
-            Ter uma Agenda Atualizada com pautas e reunioes do grupo.
-          
-            Todos devem ter acesso ao projeto hospedado no GitHub.
-          
-            Todos devem fazer uma interação ao menos por dia no Grupo de Whats e uma ao Discord.
-          
-            Todo trabalho deve subir ao GitHub por seu autor.
-          
-            Entregar 5 paginas de Layout com seus campos e funçoes definidas.
-  
-            Criar um arquivo de texto falando sobre si.
+	            Atualizar e Diario com pautas e reunioes do grupo;
+	            
+	            Todos devem estar a par das funçoes de cada pagina(codigo) ;
+	            
+	            Todo trabalho deve subir ao GitHub por seu Responsavel;
+		              
+	     	    Entregar 5 paginas (codigos) de Layout com seus campos e funçoes definidas;
+	    
+	            Criar um arquivo sobre as mudanças geradas por suas contribuiçoes ao projero;
