@@ -52,12 +52,17 @@
 
 		Atualização do plano de negócios
 		Discussão e elaboração da estrutura HTML
-		Definição das atividades relacionadas a Sprint
+		Definição das atividades relacionadas a Sprint I
 
-22/09/2023 - 22:30
+22/09/2023 - 22:30 ~23:15 (Cairo, Eduardo,Lucas)
 
                            		
 	Reunião em grupo	
+
+		Prévia da estrurtura HTML
+		Discussão sobre Tags e possíveis mudanças
+		
+
 
 	
 	
