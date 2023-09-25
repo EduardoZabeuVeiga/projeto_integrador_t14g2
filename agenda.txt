@@ -42,7 +42,7 @@
 15/09/2023 - Pauta
 	
 	Obs
-		 Consentimento de publicação de serviço, tem que estar adequado ao LGPD.
+		 Consentimento de publicacao de serviço, tem que estar adequado ao LGPD.
 		 Agendar reunião em grupo para abordar o tema. 	
 
 	
@@ -58,35 +58,35 @@
 			Colocar as ul dentro de “div”  
 			Colocar “span” dentro da “div” 
                 	               
-		Estrutura das páginas
+		Estrutura das paginas
 
-			5 paginas de códigos , um para cada layout anterior
+			5 paginas de codigos , um para cada layout anterior
 
-		Defirnido datas e horários das próximas reuniões
+		Defirnido datas e horarios das proximas reunioes
 
-			Todo dia seguinte às aulas e todas as segundas-feiras às 22:30
-			Sendo possível quando necessário reuniões extras
+			Todo dia seguinte as aulas e todas as segundas-feiras as 22:30
+			Sendo possivel quando necessario reuniões extras
 
 		Responsabilidades
 	
 			Erik, Cairo
 
 				Layout 
-				Esqueleto, footer e header das 5 páginas - prazo 22/09
-				Login de usuário no header
-				Páginas inicial e fale conosco
+				Esqueleto, footer e header das 5 paginas - prazo 22/09
+				Login de usuario no header
+				Paginas inicial e fale conosco
 				Definir hierarquia das páginas
 			
 			Eduardo
 				
-				Páginas de agendamento e cadastro
-				Plano de negócio
+				Paginas de agendamento e cadastro
+				Plano de negocio
 				Readme.md formatar o roteiro da Sprint II
 
 			Lucas
 
-				Página do profissional
-				Agenda e diário
+				Pagina do profissional
+				Agenda e diario
 				Estrutura de horários e prazos
 
 			Obs
@@ -97,15 +97,15 @@
 22/09/2023 - 22:30 ~23:15 (Cairo, Eduardo,Lucas)
 
                            		
-	Reunião em grupo	
+	Reuniao em grupo	
 
-	          		Apresentação dos trabalhos individuais 
+	          		Apresentacao dos trabalhos individuais 
 
 			Prorrogação da entrega do esqueleto para 25/09
 
-			Prorrogação da página profissionais para 25/09
+			Prorrogação da pagina profissionais para 25/09
 
-			Horário das reuniões alterado para às 17:30 no mesmo cronograma
+			Horário das reuniões alterado para as 17:30 no mesmo cronograma
 
 
 
