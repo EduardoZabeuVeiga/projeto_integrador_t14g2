@@ -6,86 +6,144 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Agendamento</h1>
+    <header>
+        <img src="./img/logo_proz.png"/>
+        <nav>
+            <ul>
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Cadastro</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Nossos profissionais</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div>
-        <form action="">
+    <main>
+        <h1>Agendamento</h1>
 
-            <label for="name">Nome:</label>
-            <input type="text" name="name" id="name">
-            <br>
-            <br>
+        <div>
+            <form action="">
 
-            <label for="profissional">Selecione o Profissional:</label>
-            <select name="" id="profissional">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <br>
 
-                <option value="Eduardo">Eduardo</option>
-                <option value="João">João</option>
-                <option value="Manoel">Manu</option>
+                <label for="profissional">Selecione o Profissional:</label>
+                <select name="" id="profissional">
+
+                    <option value="Eduardo">Eduardo</option>
+                    <option value="João">João</option>
+                    <option value="Manoel">Manu</option>
+                    
+                </select>
+                <br>
+                <br>
+
+                <label for="dia_livre">Data Livre:</label>
+                <input type="date" name="dia_livre" id="dia_livre">
+                <br>
+                <br>
+
+
+                <label for="time">Hora:</label>
+                <input type="time" name="time" id="time">
+                <br>
+                <br>
+
+                <label for="servico">Selecione Contratação:</label>
+                <select name="servico" id="servico">
+                    
+                    <option value="selserv1">Tatuagem</option>
+                    <option value="selserv2">Piercing</option>
+                    <option value="selserv3">Eventos</option>
+
+                </select>
+
+                <label for="arte">Arte:</label>
+                <select name="selserv1" id="arte">
+                    
+                    <option value="selserv1">Selecione</option>
+                    <option value="selserv1">Fechar Antebraço</option>
+                    <option value="selserv1">Fechar Braço</option>
+                    <option value="selserv1">1/2 Barriga</option>
+                    <option value="selserv1">Pescoço</option>
+                    <option value="selserv1">Ombro</option>
+                    <option value="selserv1">Batata da Perna</option>
+                    <option value="selserv1">Mão</option>
+                    <option value="selserv2">Labio</option>
+                    <option value="selserv2">Sobrancelha</option>
+                    <option value="selserv2">Nostril</option>
+                    <option value="selserv2">Septo</option>
+                    <option value="selserv2">Monroe</option>
+
+                </select>
+                <br>
+                <br>
+
+                <label for="fotoexemplo">Adicione imagem do serviço desejado!</label>
+                <input type="file" name="fotoexemplo" id="fotoexemplo">
+                <br>
+                <br>
                 
-            </select>
-            <br>
-            <br>
+                <label for="descrição">Descreva brevemente o que deseja:</label>
+                <br>
+                <textarea name="" id="descrição" cols="60" rows="10"></textarea>
+                <br>
+                <br>
 
-            <label for="dia_livre">Data Livre:</label>
-            <input type="date" name="dia_livre" id="dia_livre">
-            <br>
-            <br>
-
-
-            <label for="time">Hora:</label>
-            <input type="time" name="time" id="time">
-            <br>
-            <br>
-
-            <label for="servico">Selecione Contratação:</label>
-            <select name="servico" id="servico">
+                <button type="submit">Enviar</button> 
                 
-                <option value="selserv1">Tatuagem</option>
-                <option value="selserv2">Piercing</option>
-                <option value="selserv3">Eventos</option>
+            </form>
 
-            </select>
+        </div>
+        
 
-            <label for="arte">Arte:</label>
-            <select name="selserv1" id="arte">
-                
-                <option value="selserv1">Selecione</option>
-                <option value="selserv1">Fechar Antebraço</option>
-                <option value="selserv1">Fechar Braço</option>
-                <option value="selserv1">1/2 Barriga</option>
-                <option value="selserv1">Pescoço</option>
-                <option value="selserv1">Ombro</option>
-                <option value="selserv1">Batata da Perna</option>
-                <option value="selserv1">Mão</option>
-                <option value="selserv2">Labio</option>
-                <option value="selserv2">Sobrancelha</option>
-                <option value="selserv2">Nostril</option>
-                <option value="selserv2">Septo</option>
-                <option value="selserv2">Monroe</option>
-
-            </select>
-            <br>
-            <br>
-
-            <label for="fotoexemplo">Adicione imagem do serviço desejado!</label>
-            <input type="file" name="fotoexemplo" id="fotoexemplo">
-            <br>
-            <br>
-            
-            <label for="descrição">Descreva brevemente o que deseja:</label>
-            <br>
-            <textarea name="" id="descrição" cols="60" rows="10"></textarea>
-            <br>
-            <br>
-
-            <button type="submit">Enviar</button> 
-            
-        </form>
-
-    </div>
     
+    </main>
 
-    
+
+    <footer>
+        <div>
+            <h3>Localização</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <span>Localização<br>
+                        R. Fulano de tal, 517 - Santo Amaro - Recife PE | CEP: 400030-170</span>
+                    </li>
+                    <li>
+                        <span>Solicite seu orçamento por email<br>
+                        projetointegradorproz@gmail.com</span>
+                    </li>
+                    <li>
+                        <span>Orçamento por WhatsApp<br>
+                        (11)9 1234-5678</span>
+                    </li> 
+                </ul>
+            </nav>
+        </div>
+        
+        <div>
+            <h3>Institucional</h3>
+            <nav>
+                <ul>
+                        <li><a href="#">Agendamento</a></li>
+                        <li><a href="#">Cadastro</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Nossos profissionais</a></li> 
+                </ul>
+            </nav>
+        </div>
+        
+        <div>
+            <h3>Siga-nos</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+        </div>
+    </footer>
 </body>
 </html>
