@@ -27,13 +27,14 @@
             <form action="">
 
                 <label for="name">Nome:</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
                 <br>
                 <br>
 
                 <label for="profissional">Selecione o Profissional:</label>
-                <select name="" id="profissional">
+                <select name="" id="profissional" required>
 
+                    <option value="Selecione">Selecione</option>
                     <option value="Eduardo">Eduardo</option>
                     <option value="João">João</option>
                     <option value="Manoel">Manu</option>
@@ -43,18 +44,18 @@
                 <br>
 
                 <label for="dia_livre">Data Livre:</label>
-                <input type="date" name="dia_livre" id="dia_livre">
+                <input type="date" name="dia_livre" id="dia_livre" required>
                 <br>
                 <br>
 
 
                 <label for="time">Hora:</label>
-                <input type="time" name="time" id="time">
+                <input type="time" name="time" id="time" required>
                 <br>
                 <br>
 
                 <label for="servico">Selecione Contratação:</label>
-                <select name="servico" id="servico">
+                <select name="servico" id="servico" required>
                     
                     <option value="selserv1">Tatuagem</option>
                     <option value="selserv2">Piercing</option>
@@ -63,7 +64,7 @@
                 </select>
 
                 <label for="arte">Arte:</label>
-                <select name="selserv1" id="arte">
+                <select name="selserv1" id="arte" required>
                     
                     <option value="selserv1">Selecione</option>
                     <option value="selserv1">Fechar Antebraço</option>
@@ -84,13 +85,13 @@
                 <br>
 
                 <label for="fotoexemplo">Adicione imagem do serviço desejado!</label>
-                <input type="file" name="fotoexemplo" id="fotoexemplo">
+                <input type="file" name="fotoexemplo" id="fotoexemplo" required>
                 <br>
                 <br>
                 
                 <label for="descrição">Descreva brevemente o que deseja:</label>
                 <br>
-                <textarea name="" id="descrição" cols="60" rows="10"></textarea>
+                <textarea name="" id="descrição" cols="60" rows="10" required></textarea>
                 <br>
                 <br>
 
