@@ -1,10 +1,10 @@
 13/09/2023 - 19:00 ~ 23:15 (Cairo, Eduardo, Lucas)
 
-	Plano de Negócio: 
+	Plano de Negocio: 
 
 		Definido as dez regras iniciais em grupo
-		Definindo responsável = Eduardo
-		Responsável irá eleborar o documento
+		Definindo responsavel = Eduardo
+		Responsavel ira eleborar o documento
 
  	Tema: 
 
@@ -13,50 +13,50 @@
 
 	Layout
 
-		Definido parâmetro em grupo
-		Distribuição; 
-			Cairo = "Página "inicial", pagina "sobre nós"
+		Definido parametro em grupo
+		Distribuicao; 
+			Cairo = "Pagina "inicial", pagina "sobre nos"
 			Eduardo = Paginas " Agendamento" e "cadastro"
 			Lucas = Pagina " Perfil dos profissionais"
 
-	Centralização
+	Centralizacao
 
-		Definido repositório em grupo
-		Contribuições de integrantes centralizadas ao GitHub
+		Definido repositorio em grupo
+		Contribuicaoes de integrantes centralizadas ao GitHub
 
-	Obrigações
+	Obrigacoes
 
-		Cairo = Responsável pela padronização de layouts do grupo
-		Lucas = Fiscalização geral e controle de agenda
-		Eduardo = Conformização de documentos
+		Cairo = Responsavel pela padronizacao de layouts do grupo
+		Lucas = Fiscalizacao geral e controle de agenda
+		Eduardo = Conformizacao de documentos
 
 14/09/2023 - 20:15 ~ 21:30 (Cairo,Eduardo, Eric, Lucas)
 	
-	Reunião em grupo
+	Reuniao em grupo
 
-		 Apresentação do projeto para integração de Eric e Alexandre. 
-		 Definida reunião com o professor na parte da manha - 15/09 
-			Apresentação do projeto
-			Horário entre 08:00 ~ 10:00
+		 Apresentacao do projeto para integracao de Eric e Alexandre. 
+		 Definida reuniao com o professor na parte da manha - 15/09 
+			Apresentacao do projeto
+			Horario entre 08:00 ~ 10:00
 	  						
 15/09/2023 - Pauta
 	
 	Obs
-		 Consentimento de publicacao de serviço, tem que estar adequado ao LGPD.
-		 Agendar reunião em grupo para abordar o tema. 	
+		 Consentimento de publicacao de servico, tem que estar adequado ao LGPD.
+		 Agendar reuniao em grupo para abordar o tema. 	
 
 	
 20/09/2023 - 11:00 ~ 12:15 (Cairo, Eduardo, Eric, Lucas)	
 
-	Reunião em grupo
+	Reuniao em grupo
 
 		Definida estrutura de Tags
 		
 			Head, Reader, main,  Body, Div, Span, Section, Forms
 			a, href, img, link externo, nav, ul, li, p, h1~h5, select, option
 			
-			Colocar as ul dentro de “div”  
-			Colocar “span” dentro da “div” 
+			Colocar as ul dentro de "div"  
+			Colocar "span" dentro da "div" 
                 	               
 		Estrutura das paginas
 
@@ -65,7 +65,7 @@
 		Defirnido datas e horarios das proximas reunioes
 
 			Todo dia seguinte as aulas e todas as segundas-feiras as 22:30
-			Sendo possivel quando necessario reuniões extras
+			Sendo possivel quando necessario reuniï¿½es extras
 
 		Responsabilidades
 	
@@ -75,7 +75,7 @@
 				Esqueleto, footer e header das 5 paginas - prazo 22/09
 				Login de usuario no header
 				Paginas inicial e fale conosco
-				Definir hierarquia das páginas
+				Definir hierarquia das paginas
 			
 			Eduardo
 				
@@ -87,11 +87,11 @@
 
 				Pagina do profissional
 				Agenda e diario
-				Estrutura de horários e prazos
+				Estrutura de horarios e prazos
 
 			Obs
 
-				Resssaltada a necessidade de todos os integrantes interagirem com os                                                                     grupos de comunicação Whatsapp e Discord
+				Resssaltada a necessidade de todos os integrantes interagirem com os                                                                     grupos de comunicaï¿½ï¿½o Whatsapp e Discord
 			 	
 		
 22/09/2023 - 22:30 ~23:15 (Cairo, Eduardo,Lucas)
@@ -101,11 +101,11 @@
 
 	          		Apresentacao dos trabalhos individuais 
 
-			Prorrogação da entrega do esqueleto para 25/09
+			Prorrogacao da entrega do esqueleto para 25/09
 
-			Prorrogação da pagina profissionais para 25/09
+			Prorrogacao da pagina profissionais para 25/09
 
-			Horário das reuniões alterado para as 17:30 no mesmo cronograma
+			Horario das reuniaes alterado para as 17:30 no mesmo cronograma
 
 
 
