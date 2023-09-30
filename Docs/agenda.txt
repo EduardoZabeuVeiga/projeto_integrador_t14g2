@@ -1,4 +1,4 @@
-13/09/2023 - 19:00 ~ 23:15 (Cairo, Eduardo, Lucas)
+﻿13/09/2023 - 19:00 ~ 23:15 (Cairo, Eduardo, Lucas)
 
 	Plano de Negocio: 
 
@@ -65,7 +65,7 @@
 		Defirnido datas e horarios das proximas reunioes
 
 			Todo dia seguinte as aulas e todas as segundas-feiras as 22:30
-			Sendo possivel quando necessario reuni�es extras
+			Sendo possivel quando necessario reunioes extras
 
 		Responsabilidades
 	
@@ -91,7 +91,7 @@
 
 			Obs
 
-				Resssaltada a necessidade de todos os integrantes interagirem com os                                                                     grupos de comunica��o Whatsapp e Discord
+				Resssaltada a necessidade de todos os integrantes interagirem com os                                                                     grupos de comunicacao Whatsapp e Discord
 			 	
 		
 22/09/2023 - 22:30 ~23:15 (Cairo, Eduardo,Lucas)
