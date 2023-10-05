@@ -1,29 +1,33 @@
 Projeto Integrador Turma 14 Grupo  2
 
-        Meta do Grupo para Sprint II - 
+        Meta do Grupo para Sprint III - 
 
-	            Criar 5 codigos para os layouts da Sprint I;
+	            Criar 5 paginas estilizadas atravez do CSS;
 	            
-	            Usar todas as tags estipiladas em reunião;
+	            Garantir a recursividade de pelo menos uma pagina;
 	            
 	            Atualizar conteudo toda sexta feira de cada semana ao GitHub;
 	            
-	            Distribuir Funções;
+	            Distribuir funções e substitutos;
 	            
-	            Criar video com as mudanças da pagina;
+	            Estilizar fontes;
 	
-	            Definir Hierarquia de Paginas;
+	            Design Intuitivo;
 	
 	            Garantir inclusao de Mudanças ao "Plano de Negocio";
 
-        REGRAS PARA ENTREGA - 26/09/2023
+				Usar Branches!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        REGRAS PARA ENTREGA - 24/10/2023
         
-	            Atualizar e Diario com pautas e reunioes do grupo;
+	            Atualizado diario com pautas e reunioes do grupo;
 	            
-	            Todos devem estar a par das funçoes de cada pagina(codigo) ;
+	            Definidos os Substitutos;
 	            
-	            Todo trabalho deve subir ao GitHub por seu Responsavel;
+	            Todo trabalho deve subir ao GitHub por seu responsavel ou substituto;
 		              
-	     	    Entregar 5 paginas (codigos) de Layout com seus campos e funçoes definidas;
+	     	    Entregar 8 paginas estilizadas com CSS. todas recursivas!!!!;
 	    
-	            Criar um arquivo sobre as mudanças geradas por suas contribuiçoes ao projero;
+	            Criar arquivo de orientacao à seu substituto enfatizando pontos de destaque;
+
+				Garantir conformidade com documentação!!!!!!
