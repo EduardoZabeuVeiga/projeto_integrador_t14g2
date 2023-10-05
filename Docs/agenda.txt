@@ -1,4 +1,4 @@
-13/09/2023 - 19:00 ~ 23:15 (Cairo, Eduardo, Lucas)
+﻿13/09/2023 - 19:00 ~ 23:15 (Cairo, Eduardo, Lucas)
 
 	Plano de Negocio: 
 
@@ -15,6 +15,7 @@
 
 		Definido parametro em grupo
 		Distribuicao; 
+
 			Cairo = "Pagina "inicial", pagina "sobre nos"
 			Eduardo = Paginas " Agendamento" e "cadastro"
 			Lucas = Pagina " Perfil dos profissionais"
@@ -35,7 +36,9 @@
 	Reuniao em grupo
 
 		 Apresentacao do projeto para integracao de Eric e Alexandre. 
+
 		 Definida reuniao com o professor na parte da manha - 15/09 
+
 			Apresentacao do projeto
 			Horario entre 08:00 ~ 10:00
 	  						
@@ -65,7 +68,7 @@
 		Defirnido datas e horarios das proximas reunioes
 
 			Todo dia seguinte as aulas e todas as segundas-feiras as 22:30
-			Sendo possivel quando necessario reuni�es extras
+			Sendo possivel quando necessario reunioes extras
 
 		Responsabilidades
 	
@@ -91,22 +94,31 @@
 
 			Obs
 
-				Resssaltada a necessidade de todos os integrantes interagirem com os                                                                     grupos de comunica��o Whatsapp e Discord
+				Resssaltada a necessidade de todos os integrantes interagirem com os                                                                     grupos de comunicacao Whatsapp e Discord
 			 	
 		
 22/09/2023 - 22:30 ~23:15 (Cairo, Eduardo,Lucas)
-
                            		
 	Reuniao em grupo	
 
-	          		Apresentacao dos trabalhos individuais 
+	          	Apresentacao dos trabalhos individuais 
+		Prorrogacao da entrega do esqueleto para 25/09
+		Prorrogacao da pagina profissionais para 25/09
+		Horario das reuniaes alterado para as 17:30 no mesmo cronograma
 
-			Prorrogacao da entrega do esqueleto para 25/09
 
-			Prorrogacao da pagina profissionais para 25/09
+03/10/2023 - 09:30 ~ 10:30 (Cairo, Eduardo,Lucas)
 
-			Horario das reuniaes alterado para as 17:30 no mesmo cronograma
+	Reuniao em grupo
 
+		Definiçao das estruturas html e elaboraçao das responsabilidades
+		Discussao sobre integrante que nao esta colaborando com o projeto
+		Definicao dos substituos da cada funcao caso haja impresvistos
+		horario das reunioes modificado para 09:30 as 11:00
+
+	
+		
+	
 
 
 	
