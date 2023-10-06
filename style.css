@@ -1,0 +1,28 @@
+.ul {
+        display: flex;
+    
+    
+    }
+.li {
+
+        list-style: none;
+        border: 10px;
+        display: flex;
+        position: relative;
+        margin: 4em;
+        margin-top: auto;
+        padding: 30px;
+        margin: 50px;
+        text-decoration: none;
+    }
+
+.h1 {
+        background: url(./img/img_piercing/piercing.JPG);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+        padding: 5%;
+        font-size: 60px;
+        font-family: 'Serif';
+    }
