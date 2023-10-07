@@ -5,19 +5,22 @@
 
 a {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 900px;
     letter-spacing: 0.2em;
-    color: rgb(252, 250, 250);
-    font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    color: rgba(226, 220, 220, 0.836);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
 }
 
-.ul {
+.ul {   
+        
         display: flex;
         text-decoration: none;
         align-items: center;
         margin: auto;
         max-width: 800px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 1em;
     }
     
 .li {
@@ -30,7 +33,7 @@ a {
     }
 
 .h1 {
-        background: url(./img/img_piercing/piercing.JPG);
+        background: url(./img/img_tattoo/tattoo.JPG);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -40,13 +43,51 @@ a {
         font-family: 'cinetype';
     }
 
-.main {
-        color: antiquewhite;
-      
-      
-      }
-
-.footer {
+.main   {
             color: antiquewhite;
-        
+            display: flex;
+            justify-content: space-around;
+            margin: 4em;
         }
+
+.footer {     
+            color: antiquewhite;
+            display: flex;
+            width: 100%;
+            
+
+        }
+
+.lifooter {
+            display: flex;
+            position: relative;
+            padding: 1px;
+            margin: 1px;
+    }
+
+h3 {
+        text-align: center;
+        color: rgba(240, 236, 236, 0.836);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;   
+        text-align: center; 
+   }
+
+.spanfooter {
+            display: flex;
+            position: relative;
+            margin-top: auto;
+            padding: 1px;
+            margin: 1px;
+            color: rgba(253, 253, 253, 0.836);
+            align-items: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sec { 
+    background-color: rgb(109, 101, 101);
+    color: aliceblue;
+    width: 30%;
+    text-align: center;
+    border-radius: 1em;
+}
