@@ -1,0 +1,93 @@
+.background {
+    background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);          
+            
+            }
+
+a {
+    text-decoration: none;
+    font-weight: 900px;
+    letter-spacing: 0.2em;
+    color: rgba(226, 220, 220, 0.836);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+.ul {   
+        
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        margin: auto;
+        max-width: 800px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 1em;
+    }
+    
+.li {
+        display: flex;
+        position: relative;
+        margin-top: auto;
+        padding: 1px;
+        margin: 15px;
+        align-items: center;
+    }
+
+.h1 {
+        background: url(./img/img_tattoo/tattoo.JPG);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-align: center;
+        padding: 5%;
+        font-size: 60px;
+        font-family: 'cinetype';
+    }
+
+.main   {
+            color: antiquewhite;
+            display: flex;
+            justify-content: space-around;
+            margin: 4em;
+        }
+
+.footer {     
+            color: antiquewhite;
+            display: flex;
+            width: 100%;
+            
+
+        }
+
+.lifooter {
+            display: flex;
+            position: relative;
+            padding: 1px;
+            margin: 1px;
+    }
+
+h3 {
+        text-align: center;
+        color: rgba(240, 236, 236, 0.836);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;   
+        text-align: center; 
+   }
+
+.spanfooter {
+            display: flex;
+            position: relative;
+            margin-top: auto;
+            padding: 1px;
+            margin: 1px;
+            color: rgba(253, 253, 253, 0.836);
+            align-items: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sec { 
+    background-color: rgb(109, 101, 101);
+    color: aliceblue;
+    width: 30%;
+    text-align: center;
+    border-radius: 1em;
+}
