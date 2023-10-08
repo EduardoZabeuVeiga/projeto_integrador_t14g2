@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <header class="class header agenda">
-        <img class="class logo" src="./img/logo_proz.png"/>
-        <nav class="class nav agenda">
-            <ul class="class ul agenda">
-                <li class="class li inicio agenda"><a href="./index.html">Início</a></li>
-                <li class="class li agendamento agenda"><a href="./agenda.html">Agendamento</a></li>
-                <li class="class li cadastro agenda"><a href="./cadastro.html">Cadastro</a></li>
-                <li class="class li faleconosco agenda"><a href="./faleconosco.html">Fale Conosco</a></li>
-                <li class="class li profissional agenda"><a href="./profissional.html">Nossos profissionais</a></li>
+    <header class="header">
+        <img class="logo" src="./img/logo_proz.png" />
+        <nav class="nav">
+            <ul class="ul">
+                <li class="liinicio"><a href="./index.html">Início</a></li>
+                <li class="liagendamento"><a href="./agenda.html">Agendamento</a></li>
+                <li class="licadastro"><a href="./cadastro.html">Cadastro</a></li>
+                <li class="lifaleconosco"><a href="./faleconosco.html">Fale Conosco</a></li>
+                <li class="linossosprofissionais agenda"><a href="./profissional.html">Nossos profissionais</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <main class="class main agenda">
+    <main class="mainagenda">
         <h1 class="class h1 agenda">Agendamento</h1>
 
-        <div class="class div agenda">
-            <form class="class form agenda" action="">
+        <div class="divagenda">
+            <form class="formagenda" action="">
 
-                <label class="class label nome agenda for="name">Nome:</label>
-                <input class="class input name agenda" type="text" name="name" id="name" required>
+                <label class="labelnome" for="nome">Nome:</label>
+                <input class="inputname" type="text" name="name" id="name" required>
                 <br>
                 <br>
 
-                <label class="class label profisionai selecione" for="profissional">Selecione o Profissional:</label>
-                <select class="class select agenda" name="" id="profissional" required>
+                <label class="labelprofisional" for="profissional">Selecione o Profissional:</label>
+                <select class="selectprofissional" name="" id="profissional" required>
 
                     <option value="Selecione">Selecione</option>
                     <option value="Eduardo">Eduardo</option>
                     <option value="João">João</option>
                     <option value="Manoel">Manu</option>
-                    
+
                 </select>
                 <br>
                 <br>
 
-                <label class="class label data agenda" for="dia_livre">Data Livre:</label>
-                <input class="class input date agenda" type="date" name="dia_livre" id="dia_livre" required>
+                <label class="labeldata" for="dia_livre">Data Livre:</label>
+                <input class="inputdate" type="date" name="dia_livre" id="dia_livre" required>
                 <br>
                 <br>
 
 
-                <label class="class label hora agenda" for="time">Hora:</label>
-                <input class="class input time agenda" type="time" name="time" id="time" required>
+                <label class="labelhora" for="time">Hora:</label>
+                <input class="inputtime" type="time" name="time" id="time" required>
                 <br>
                 <br>
 
-                <label class="class label contratacao agenda" for="servico">Selecione Contratação:</label>
-                <select class="class input servico agenda" name="servico" id="servico" required>
-                    
+                <label class="labelcontratacao" for="servico">Selecione Contratação:</label>
+                <select class="inputservico" name="servico" id="servico" required>
+
                     <option value="selserv1">Tatuagem</option>
                     <option value="selserv2">Piercing</option>
                     <option value="selserv3">Eventos</option>
 
                 </select>
 
-                <label class="class label arte agenda" for="arte">Arte:</label>
-                <select class="class select arte agenda" name="selserv1" id="arte" required>
-                    
+                <label class="labelarte" for="arte">Arte:</label>
+                <select class="selectarte" name="selserv1" id="arte" required>
+
                     <option value="selserv1">Selecione</option>
                     <option value="selserv1">Fechar Antebraço</option>
                     <option value="selserv1">Fechar Braço</option>
@@ -84,19 +86,19 @@
                 <br>
                 <br>
 
-                <label class="class label imagem agenda" for="fotoexemplo">Adicione imagem do serviço desejado!</label>
-                <input class="class input foto agenda" type="file" name="fotoexemplo" id="fotoexemplo" required>
-                <br>
-                <br>
-                
-                <label class="class label descricao agenda for="descrição">Descreva brevemente o que deseja:</label>
-                <br>
-                <textarea class="class textarea descricao agenda" name="" id="descrição" cols="60" rows="10" required></textarea>
+                <label class="labelimagem" for="fotoexemplo">Adicione imagem do serviço desejado!</label>
+                <input class="inputfoto" type="file" name="fotoexemplo" id="fotoexemplo" required>
                 <br>
                 <br>
 
-                <button type="submit">Enviar</button> 
-                
+                <label class="labeldescricao" for="descrição">Descreva brevemente o que deseja:</label>
+                <br>
+                <textarea class="textareadescricao" name="" id="descrição" cols="60" rows="10" required></textarea>
+                <br>
+                <br>
+
+                <button class="submit" type="submit">Enviar</button>
+
             </form>
 
         </div>
@@ -110,41 +112,42 @@
                 <ul>
                     <li>
                         <span>Localização<br>
-                        R. Fulano de tal, 517 - Santo Amaro - Recife PE | CEP: 400030-170</span><br><br>
+                            R. Fulano de tal, 517 - Santo Amaro - Recife PE | CEP: 400030-170</span><br><br>
                     </li>
                     <li>
                         <span>Solicite seu orçamento por email<br>
-                        projetointegradorproz@gmail.com</span><br><br>
+                            projetointegradorproz@gmail.com</span><br><br>
                     </li>
                     <li>
                         <span>Orçamento por WhatsApp<br>
-                        (11)9 1234-5678</span>
-                    </li> 
+                            (11)9 1234-5678</span>
+                    </li>
                 </ul>
             </nav>
         </div>
-        
+
         <div>
             <h3>Institucional</h3>
             <nav>
                 <ul>
                     <li><a href="#">Início</a></li>
-                <li><a href="./agenda.html">Agendamento</a></li>
-                <li><a href="./cadastro.html">Cadastro</a></li>
-                <li><a href="./faleconosco.html">Fale Conosco</a></li>
-                <li><a href="./profissional.html">Nossos profissionais</a></li>
+                    <li><a href="./agenda.html">Agendamento</a></li>
+                    <li><a href="./cadastro.html">Cadastro</a></li>
+                    <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                    <li><a href="./profissional.html">Nossos profissionais</a></li>
                 </ul>
             </nav>
         </div>
-        
+
         <div>
             <h3>Siga-nos</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
         </div>
     </footer>
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,110 +8,112 @@
 </head>
 
 <body>
-    <header class="class header cadastro">
-        <img class="class logo" src="./img/logo_proz.png"/>
-        <nav class="class nav cadastro">
-            <ul class="class ul cadastro">
-                <li class="class li inicio cadastro"><a href="./index.html">Início</a></li>
-                <li class="class li agendamento cadastro"><a href="./agenda.html">Agendamento</a></li>
-                <li class="class li cadastro"><a href="./cadastro.html">Cadastro</a></li>
-                <li class="class li faleconosco cadastro"><a href="./faleconosco.html">Fale Conosco</a></li>
-                <li class="class li Profissional cadastro"><a href="./profissional.html">Nossos profissionais</a></li>
+    <header class="header">
+        <img class="logo" src="./img/logo_proz.png" />
+        <nav class="nav">
+            <ul class="ul">
+                <li class="liinicio"><a href="./index.html">Início</a></li>
+                <li class="liagendamento"><a href="./agenda.html">Agendamento</a></li>
+                <li class="licadastro"><a href="./cadastro.html">Cadastro</a></li>
+                <li class="lifaleconosco"><a href="./faleconosco.html">Fale Conosco</a></li>
+                <li class="linossosprofissionais"><a href="./profissional.html">Nossos profissionais</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <main class="class main cadastro">
-        <h1 class="class h1 cadastro">Cadastro</h1>
-        <div class="class div cadastro">
-            <form class="class form div cadastro" action="">
-                    <label class="class label nome cadastro" for="nome">Nome:</label>
-                    <input class="class input nome cadastro" type="text" name="nome" id="nome" required>
-                    <br> 
-                
-                    <label class="class label endereco cadastro" for="endereco">Endereço:</label>
-                    <input class="class input endereco cadastro" type="text" name="endereco" id="endereco" required>
-                    <br> 
-
-                    <label class="class label bairro cadastro" for="bairro">Bairro:</label>
-                    <input class="class input bairro cadastro" type="text" name="bairro" id="bairro" required>
-                    <br>
-
-                    <label class="class label cep cadastro" for="cep">CEP:</label>
-                    <input class="class input cep cadastro" type="text" name="cep" id="cep" required>
-                    <br> 
-
-                    <label class="class label cidade cadastro" for="cidade">Cidade:</label>
-                    <input class="class input cidade cadastro" type="text" name="cidade" id="cidade" required>
-                    <br> 
-
-                    <label for="uf">Estado</label>
-                    <select class="class select cadastro" id="uf">
-                        <option value="AC">Acre</option>
-                        <option value="AL">Alagoas</option>
-                        <option value="AP">Amapá</option>
-                        <option value="AM">Amazonas</option>
-                        <option value="BA">Bahia</option>
-                        <option value="CE">Ceará</option>
-                        <option value="DF">Distrito Federal</option>
-                        <option value="ES">Espírito Santo</option>
-                        <option value="GO">Goiás</option>
-                        <option value="MA">Maranhão</option>
-                        <option value="MT">Mato Grosso</option>
-                        <option value="MS">Mato Grosso do Sul</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="PA">Pará</option>
-                        <option value="PB">Paraíba</option>
-                        <option value="PR">Paraná</option>
-                        <option value="PE">Pernambuco</option>
-                        <option value="PI">Piauí</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="RN">Rio Grande do Norte</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                        <option value="RO">Rondônia</option>
-                        <option value="RR">Roraima</option>
-                        <option value="SC">Santa Catarina</option>
-                        <option value="SP">São Paulo</option>
-                        <option value="SE">Sergipe</option>
-                        <option value="TO">Tocantins</option>
-                    </select>
-
-                    <br> 
-
-                <label class="class label telefone cadastro" for="tel">Telefone:</label>
-                <input class="class input telefone cadastro" type="tel" name="tel" id="tel" required>
-                <br> 
-
-                <label class="class label email cadastro" for="email">e-mail:</label>
-                <input class="class input email cadastro" type="email" name="email" id="email" required>
+    <main class="maincadastro">
+        <h1 class="h1cadastro">Cadastro</h1>
+        <div class="div1cadastro">
+            <form class="formdivcadastro" action="">
+                <label class="labelnome" for="nome">Nome:</label>
+                <input class="inputnome" type="text" name="nome" id="nome" required>
                 <br>
 
-                <label class="class label nascimento cadastro" for="nascimento">Data de Nacimento:</label>
-                <input class="class input nascimento cadastro" type="tel" name="nascimento" id="nascimento" required>
+                <label class="labelendereco" for="endereco">Endereço:</label>
+                <input class="inputendereco" type="text" name="endereco" id="endereco" required>
                 <br>
 
-                <label class="class label perfil cadastro" for="fotoperfil">Foto do Perfil:</label>
-                <input class="class input perfil cadastro" type="file" name="fotoperfil" id="fotoperfil" required>
+                <label class="labelbairro" for="bairro">Bairro:</label>
+                <input class="inputbairro" type="text" name="bairro" id="bairro" required>
                 <br>
 
-                <label class="class label apelido cadastro" for="apelido">Como prefere ser chamado(a)?:</label>
-                <input class="class input apelido cadastro" type="text" name="apelido" id="apelido" required>
+                <label class="labelcep" for="cep">CEP:</label>
+                <input class="inputcep" type="text" name="cep" id="cep" required>
                 <br>
-                <br>                                           
 
-                <button class="class button enviar cadastro" type="submit">Enviar</button>                       
+                <label class="labelcidade" for="cidade">Cidade:</label>
+                <input class="inputcidade" type="text" name="cidade" id="cidade" required>
+                <br>
 
-                <h2 class="class h2 ou cadastro">OU</h2>
+                <label class="labelestado" for="uf">Estado</label>
+                <input type="inputestado" type="text" name="estado" id="estado" required>
 
-                <label class="class label google cadastro" for=""></label>
-                <input class="class input google cadastro" type="button" value="Cadastre-se atraves de sua conta Google">
-                
-                <label class="class label apple cadastro" for=""></label>
-                <input class="class input apple cadastro" type="button" value="Cadastre-se atraves de seu ID Apple">
+                <select class="selectcadastro" id="uf">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
 
-                <h1>criar senha</h1>
-            
+                <br>
+
+                <label class="labeltelefone" for="tel">Telefone:</label>
+                <input class="inputtelefone" type="tel" name="tel" id="tel" required>
+                <br>
+
+                <label class="labelemail" for="email">e-mail:</label>
+                <input class="inputemail" type="email" name="email" id="email" required>
+                <br>
+
+                <label class="labelnascimento" for="nascimento">Data de Nacimento:</label>
+                <input class="inputnascimento" type="tel" name="nascimento" id="nascimento" required>
+                <br>
+
+                <label class="labelperfil" for="fotoperfil">Foto do Perfil:</label>
+                <input class="inputperfil" type="file" name="fotoperfil" id="fotoperfil" required>
+                <br>
+
+                <label class="labelapelido" for="apelido">Como prefere ser chamado(a)?:</label>
+                <input class="inputapelido" type="text" name="apelido" id="apelido" required>
+                <br>
+                <br>
+
+                <button class="buttonenviar" type="submit">Enviar</button>
+
+                <h2 class="h2ou">OU</h2>
+
+                <label class="labelgoogle" for=""></label>
+                <input class="inputgoogle" type="button" value="Cadastre-se atraves de sua conta Google">
+
+                <label class="labelapple" for=""></label>
+                <input class="inputapple" type="button" value="Cadastre-se atraves de seu ID Apple">
+
+                <h1 class="h1senha">criar senha</h1>
+
             </form>
         </div>
     </main>
@@ -123,41 +126,42 @@
                 <ul>
                     <li>
                         <span>Localização<br>
-                        R. Fulano de tal, 517 - Santo Amaro - Recife PE | CEP: 400030-170</span><br><br>
+                            R. Fulano de tal, 517 - Santo Amaro - Recife PE | CEP: 400030-170</span><br><br>
                     </li>
                     <li>
                         <span>Solicite seu orçamento por email<br>
-                        projetointegradorproz@gmail.com</span><br><br>
+                            projetointegradorproz@gmail.com</span><br><br>
                     </li>
                     <li>
                         <span>Orçamento por WhatsApp<br>
-                        (11)9 1234-5678</span>
-                    </li> 
+                            (11)9 1234-5678</span>
+                    </li>
                 </ul>
             </nav>
         </div>
-        
+
         <div>
             <h3>Institucional</h3>
             <nav>
                 <ul>
                     <li><a href="#">Início</a></li>
-                <li><a href="./agenda.html">Agendamento</a></li>
-                <li><a href="./cadastro.html">Cadastro</a></li>
-                <li><a href="./faleconosco.html">Fale Conosco</a></li>
-                <li><a href="./profissional.html">Nossos profissionais</a></li>
+                    <li><a href="./agenda.html">Agendamento</a></li>
+                    <li><a href="./cadastro.html">Cadastro</a></li>
+                    <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                    <li><a href="./profissional.html">Nossos profissionais</a></li>
                 </ul>
             </nav>
         </div>
-        
+
         <div>
             <h3>Siga-nos</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
         </div>
     </footer>
 </body>
+
 </html>
