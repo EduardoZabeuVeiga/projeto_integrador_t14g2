@@ -4,51 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-    <header class="header">
-        <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/>
-        <nav class="nav">
+<body class="background">
+    <header>
+        
+        <nav class="ul">
             <ul class="ul">
-                <li class="liinicio"><a href="./index.html">Início</a></li>
-                <li class="liagendamento"><a href="./agenda.html">Agendamento</a></li>
-                <li class="licadastro"><a href="./cadastro.html">Cadastro</a></li>
-                <li class="lifaleconosco"><a href="./faleconosco.html">Fale Conosco</a></li>
-                <li class="linossosprofissionais agenda"><a href="./profissional.html">Nossos profissionais</a></li>
+                <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/>
+                <li class="li"><a href="/index.html">Início</a></li>
+                <li class="li"><a href="./agenda.html">Agendamento</a></li>
+                <li class="li"><a href="./cadastro.html">Cadastro</a></li>
+                <li class="li"><a href="./faleconosco.html">Fale Conosco</a></li>
+                <li class="li"><a href="./profissional.html">Nossos profissionais</a></li>
             </ul>
         </nav>
     </header>
-
 
     <main class="maincadastro">
         <h1 class="h1cadastro">Cadastro</h1>
         <div class="div1cadastro">
             <form class="formdivcadastro" action="">
-                <label class="labelnome" for="nome">Nome:</label>
-                <input class="inputnome" type="text" name="nome" id="nome" required>
+                <label class="label" for="nome">Nome:</label>
+                <input class="input" type="text" name="nome" id="nome" required>
                 <br>
 
-                <label class="labelendereco" for="endereco">Endereço:</label>
-                <input class="inputendereco" type="text" name="endereco" id="endereco" required>
+                <label class="label" for="endereco">Endereço:</label>
+                <input class="input" type="text" name="endereco" id="endereco" required>
                 <br>
 
-                <label class="labelbairro" for="bairro">Bairro:</label>
-                <input class="inputbairro" type="text" name="bairro" id="bairro" required>
+                <label class="label" for="bairro">Bairro:</label>
+                <input class="input" type="text" name="bairro" id="bairro" required>
                 <br>
 
-                <label class="labelcep" for="cep">CEP:</label>
-                <input class="inputcep" type="text" name="cep" id="cep" required>
+                <label class="label" for="cep">CEP:</label>
+                <input class="input" type="text" name="cep" id="cep" required>
                 <br>
 
-                <label class="labelcidade" for="cidade">Cidade:</label>
-                <input class="inputcidade" type="text" name="cidade" id="cidade" required>
+                <label class="label" for="cidade">Cidade:</label>
+                <input class="input" type="text" name="cidade" id="cidade" required>
                 <br>
 
-                <label class="labelestado" for="uf">Estado</label>
-                <input type="inputestado" type="text" name="estado" id="estado" required>
+                <label class="label" for="uf">Estado</label>
+                <input type="input" type="text" name="estado" id="estado" required>
 
                 <select class="selectcadastro" id="uf">
                     <option value="AC">Acre</option>
@@ -82,24 +81,24 @@
 
                 <br>
 
-                <label class="labeltelefone" for="tel">Telefone:</label>
-                <input class="inputtelefone" type="tel" name="tel" id="tel" required>
+                <label class="label" for="tel">Telefone:</label>
+                <input class="input" type="tel" name="tel" id="tel" required>
                 <br>
 
-                <label class="labelemail" for="email">e-mail:</label>
-                <input class="inputemail" type="email" name="email" id="email" required>
+                <label class="label" for="email">e-mail:</label>
+                <input class="input" type="email" name="email" id="email" required>
                 <br>
 
-                <label class="labelnascimento" for="nascimento">Data de Nacimento:</label>
-                <input class="inputnascimento" type="tel" name="nascimento" id="nascimento" required>
+                <label class="label" for="nascimento">Data de Nacimento:</label>
+                <input class="input" type="tel" name="nascimento" id="nascimento" required>
                 <br>
 
-                <label class="labelperfil" for="fotoperfil">Foto do Perfil:</label>
-                <input class="inputperfil" type="file" name="fotoperfil" id="fotoperfil" required>
+                <label class="label" for="fotoperfil">Foto do Perfil:</label>
+                <input class="input" type="file" name="fotoperfil" id="fotoperfil" required>
                 <br>
 
-                <label class="labelapelido" for="apelido">Como prefere ser chamado(a)?:</label>
-                <input class="inputapelido" type="text" name="apelido" id="apelido" required>
+                <label class="label" for="apelido">Como prefere ser chamado(a)?:</label>
+                <input class="input" type="text" name="apelido" id="apelido" required>
                 <br>
                 <br>
 
@@ -107,11 +106,11 @@
 
                 <h2 class="h2ou">OU</h2>
 
-                <label class="labelgoogle" for=""></label>
-                <input class="inputgoogle" type="button" value="Cadastre-se atraves de sua conta Google">
+                <label class="label" for=""></label>
+                <input class="input" type="button" value="Cadastre-se atraves de sua conta Google">
 
-                <label class="labelapple" for=""></label>
-                <input class="inputapple" type="button" value="Cadastre-se atraves de seu ID Apple">
+                <label class="label" for=""></label>
+                <input class="input" type="button" value="Cadastre-se atraves de seu ID Apple">
 
                 <h1 class="h1senha">criar senha</h1>
 

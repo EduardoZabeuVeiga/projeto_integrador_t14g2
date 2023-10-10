@@ -190,3 +190,48 @@ h3 {
             font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.label{
+
+    color: green;
+
+}
+#declaracao{
+
+
+    background-color: antiquewhite;
+    text-align: center;
+    min-width: 360px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 400px;
+
+
+}
+
+.anm {
+
+    
+    flex-wrap: wrap;
+    display: flex;
+ 
+}
+
+.anmcheck {
+
+    background-color: antiquewhite;
+    text-align: center;
+    min-width: 360px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.h1{
+
+    color: red;
+    margin: 50px;
+
+}
