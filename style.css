@@ -61,7 +61,6 @@ a {
     
 .li {
         display: flex;
-        position: ;
         margin-top: auto;
         padding: 1px;
         margin: 15px;
@@ -233,5 +232,65 @@ h3 {
 
     color: red;
     margin: 50px;
+
+}
+
+.botao {
+
+    margin: 1px;
+    margin: red;
+
+}
+
+.nivel{
+
+    background-color: antiquewhite;
+    text-align: center;
+    min-width: 360px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+
+}
+
+.btn    {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    
+
+
+}
+
+.soubtn{
+
+    font-size: 10px;
+    margin: 10px;
+}
+
+#mainlogin{
+
+    display: flex;
+
+}
+
+#formloguin {
+
+
+    background-color: blanchedalmond;
+    margin: 1px;
+    max-width: 360px;
+    max-height: 600px;
+    min-width: 360px;
+    min-height: 600px;
+
+}
+
+.redirecionamento {
+
+    color: black;
 
 }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Document</title>
+</head>
+<body class="background">
+    <header>
+        
+        <nav class="ul">
+            <ul class="ul">
+                <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/>
+                <li class="li"><a href="./index.html">Início</a></li>
+                <li class="li"><a href="./agenda.html">Agendamento</a></li>
+                <li class="li"><a href="./cadastro.html">Cadastro</a></li>
+                <li class="li"><a href="./faleconosco.html">Fale Conosco</a></li>
+                <li class="li"><a href="./profissional.html">Nossos profissionais</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="mainlogin">
+
+
+
+        <form id="formloguin" action="">
+        
+            <div class="nivel" >
+
+                <label class="btn">
+                    <input type="radio" name="nivel" value="1" id="user">
+                    <div class="botao"><img src="/img/person.svg" class="svg" alt=""></div>
+                    <span class="soubtn">Sou</span> Cliente
+                </label>
+
+                <label class="btn">
+                    <input type="radio" name="nivel" value="2" id="admin">
+                    <div class="botao"><img src="/img/briefcase.svg" class="svg" alt=""></div>
+                    <span class="soubtn">Sou</span> Colaborador 
+                </label>
+            </div>
+
+            <div class="">
+                <div class="btn">    
+                    <input type="email" name="email" class="" placeholder="Email" required>
+                </div>
+                <div class="btn">
+                    <input type="password" placeholder="***********" required>
+                </div>
+
+            </div>
+
+
+            <div class="nivel">
+
+                <div class="">
+
+                    <input class="save" type="checkbox" name="salvar senha" id="">
+                    <label for="salvar senha">Salvar login</label>
+
+                </div>
+
+                <div>
+
+                    <div class="redirecionamento"><a class="redirecionamento" href="recuperacao.html"> Esqueci a senha </a></div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="input-group mb-0">
+                        <input type="submit" name="login" value=" Entrar ">
+                    </div>
+
+                    
+                    <div>OU</div>
+                    
+                    <div>
+                        <a class="redirecionamento" href="./cadastro.html"> Criar uma conta </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+    </main>
