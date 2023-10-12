@@ -92,7 +92,7 @@ header a {
 
         }
 
-main{
+.main{
 
     background-image: url(/img/IMG_4373.JPG);
     background-repeat: no-repeat;
@@ -303,14 +303,28 @@ h3 {
 
 }
 
+#mainrecuperacao{
+
+    background-image: url(/img/IMG_4373.JPG);
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-size: 100% 100%;
+    
+    text-align: center;
+    align-items: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+}
+
 #formrecuperacao{
 
     width: 360px;
-    height: 500px;
-
-    display: flex;
-    flex-direction: column;
     
+
     border-radius: 20px;
     
     margin: 20px;
@@ -405,16 +419,11 @@ h3 {
      
     font-size: 15px;
     line-height: 30px;
-    
-   
-
-
 
 }
 
 .etiqueta{
-
-
+    
     margin: auto;
 
 }
