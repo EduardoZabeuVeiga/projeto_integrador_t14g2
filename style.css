@@ -272,7 +272,7 @@ h3 {
     font-size: 20px;
     line-height: 30px;
     display: flex;
-   
+    flex-wrap: wrap;
 
 }
 
@@ -300,6 +300,22 @@ h3 {
 
     display: flex;
     flex-direction: row-reverse;
+
+}
+
+#formrecuperacao{
+
+    width: 360px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 20px;
+    
+    margin: 20px;
+
+    background-color: antiquewhite;
 
 }
 
@@ -343,20 +359,7 @@ h3 {
 
 }
 
-.recuperacao {
 
-    
-    background-color: antiquewhite;
-    text-align: center;
-     
-    font-size: 15px;
-    line-height: 30px;
-    display: flex;
-   
-
-
-
-}
 
 #botaoentrar {
 
@@ -382,6 +385,39 @@ h3 {
 
 }
 
+#titulologin{
+
+    padding-top: 50px;
+
+}
+
+.geral {
+
+    margin: 30px;
+    
+
+}
+
+.recuperacao {
+
+    background-color: antiquewhite;
+    text-align: center;
+     
+    font-size: 15px;
+    line-height: 30px;
+    
+   
+
+
+
+}
+
+.etiqueta{
+
+
+    margin: auto;
+
+}
 
 
 
