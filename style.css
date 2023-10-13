@@ -204,13 +204,13 @@ h3 {
 
 .label{
 
-    color: green;
+    color: yellow;
 
 }
 #declaracao{
 
 
-    background-color: antiquewhite;
+    background: radial-gradient(circle, rgba(9,9,121,50%) 70%, rgba(0,212,255,1) 100%);  
     text-align: center;
     min-width: 360px;
     margin: auto;
@@ -218,6 +218,8 @@ h3 {
     font-size: 20px;
     line-height: 30px;
     max-width: 400px;
+    color: yellow;
+    border-radius: 20px 0px 20px 0px;
 
 
 }
@@ -232,19 +234,20 @@ h3 {
 
 .anmcheck {
 
-    background-color: antiquewhite;
+    background: radial-gradient(circle, rgba(9,9,121,50%) 50%, rgba(0,212,255,1) 100%);  
     text-align: center;
     min-width: 360px;
     margin: auto;
     font-size: 20px;
     line-height: 30px;
+    border-radius: 20px 0px 20px 0px;
 
 }
 
 .h1{
 
-    color: red;
-    margin: 50px;
+    color: goldenrod;
+    padding: 50px;
 
 }
 
@@ -263,7 +266,7 @@ h3 {
 .nivel{
 
 
-    background-color: antiquewhite;
+    
     text-align: center;
     
     
@@ -293,6 +296,7 @@ h3 {
     border-color: black;
     border-style: groove;
     border-radius: 40px;
+    background: radial-gradient(circle, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
 
 }
 
@@ -341,10 +345,12 @@ h3 {
     display: flex;
     flex-direction: column;
            
-    border: 8px dotted rgb(255, 0, 30);
     margin: 20px;
+    border-radius: 20px;
 
-    background-color: antiquewhite;
+    background: radial-gradient(circle, rgba(9,9,121,50%) 50%, rgba(0,212,255,1) 100%);
+
+    color: yellow;
 
 }
 
@@ -352,7 +358,7 @@ h3 {
 
     font-family: none;
     text-decoration: none;
-    color: black;
+    color: yellow;
     margin: 10px;
 
 }
@@ -428,5 +434,27 @@ h3 {
 
 }
 
+.labelagenda{
+
+    color: yellow;
+    font-size: 20px;
+
+}
+
+.divagenda{
+
+    background: radial-gradient(circle, rgba(9,9,121,50%) 50%, rgba(0,212,255,1) 100%);
+    min-width: none;
+    width: auto;
+    padding: auto;
+
+}
+
+.textareadescricao {
+    min-width: 25%;
+    height: 100px;
+    width: 300px;
+
+}
 
 
