@@ -4,36 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Document</title>
 </head>
-
-<body>
-    <header class="header">
-        <img class="logo" src="./img/logo_proz.png" />
-        <nav class="nav">
+<body class="background">
+    <header>
+        
+        <nav class="ul">
             <ul class="ul">
-                <li class="liinicio"><a href="./index.html">Início</a></li>
-                <li class="liagendamento"><a href="./agenda.html">Agendamento</a></li>
-                <li class="licadastro"><a href="./cadastro.html">Cadastro</a></li>
-                <li class="lifaleconosco"><a href="./faleconosco.html">Fale Conosco</a></li>
-                <li class="linossosprofissionais agenda"><a href="./profissional.html">Nossos profissionais</a></li>
+                <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/>
+                <li class="li"><a href="./index.html">Início</a></li>
+                <li class="li"><a href="./agenda.html">Agendamento</a></li>
+                <li class="li"><a href="./cadastro.html">Cadastro</a></li>
+                <li class="li"><a href="./faleconosco.html">Fale Conosco</a></li>
+                <li class="li"><a href="./profissional.html">Nossos profissionais</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <main class="mainagenda">
-        <h1 class="class h1 agenda">Agendamento</h1>
+    <main class="main">
+        
 
         <div class="divagenda">
             <form class="formagenda" action="">
 
-                <label class="labelnome" for="nome">Nome:</label>
+                <h1 class="h1">Agendamento</h1>
+
+                <label class="labelagenda" for="nome">Nome:</label>
                 <input class="inputname" type="text" name="name" id="name" required>
                 <br>
                 <br>
 
-                <label class="labelprofisional" for="profissional">Selecione o Profissional:</label>
+                <label class="labelagenda" for="profissional">Selecione o Profissional:</label>
                 <select class="selectprofissional" name="" id="profissional" required>
 
                     <option value="Selecione">Selecione</option>
@@ -45,18 +48,18 @@
                 <br>
                 <br>
 
-                <label class="labeldata" for="dia_livre">Data Livre:</label>
+                <label class="labelagenda" for="dia_livre">Data Livre:</label>
                 <input class="inputdate" type="date" name="dia_livre" id="dia_livre" required>
                 <br>
                 <br>
 
 
-                <label class="labelhora" for="time">Hora:</label>
+                <label class="labelagenda" for="time">Hora:</label>
                 <input class="inputtime" type="time" name="time" id="time" required>
                 <br>
                 <br>
 
-                <label class="labelcontratacao" for="servico">Selecione Contratação:</label>
+                <label class="labelagenda" for="servico">Selecione Contratação:</label>
                 <select class="inputservico" name="servico" id="servico" required>
 
                     <option value="selserv1">Tatuagem</option>
@@ -65,7 +68,7 @@
 
                 </select>
 
-                <label class="labelarte" for="arte">Arte:</label>
+                <label class="labelagenda" for="arte">Arte:</label>
                 <select class="selectarte" name="selserv1" id="arte" required>
 
                     <option value="selserv1">Selecione</option>
@@ -86,14 +89,14 @@
                 <br>
                 <br>
 
-                <label class="labelimagem" for="fotoexemplo">Adicione imagem do serviço desejado!</label>
-                <input class="inputfoto" type="file" name="fotoexemplo" id="fotoexemplo" required>
+                <label class="labelagenda" for="fotoexemplo">Adicione imagem do serviço desejado!</label>
+                <input class="labelagenda" type="file" name="fotoexemplo" id="fotoexemplo" required>
                 <br>
                 <br>
 
-                <label class="labeldescricao" for="descrição">Descreva brevemente o que deseja:</label>
+                <label class="labelagenda" for="descrição">Descreva brevemente o que deseja:</label>
                 <br>
-                <textarea class="textareadescricao" name="" id="descrição" cols="60" rows="10" required></textarea>
+                <textarea class="textareadescricao" name="" id="descrição" cols="60" rows="10" widith="360px" required></textarea>
                 <br>
                 <br>
 
@@ -102,6 +105,7 @@
             </form>
 
         </div>
+        
     </main>
 
 
