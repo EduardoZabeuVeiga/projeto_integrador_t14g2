@@ -20,7 +20,7 @@
 
 #bannertattoo{
 
-    background-image: url(/img/img_tattoo/213058366_4079678398781483_4524124780832309356_n.jpg);
+    background-image: url(../img/img_tattoo/213058366_4079678398781483_4524124780832309356_n.jpg);
     background-position: center;
     background-size: cover;
     
@@ -69,7 +69,7 @@ header a {
 #span1{
 
     
-        background: url(./img/img_tattoo/tattoo.JPG);
+        background: url(../img/img_tattoo/tattoo.JPG);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
@@ -92,7 +92,7 @@ header a {
 
 .main{
 
-    background-image: url(/img/IMG_4373.JPG);
+    background-image: url(../img/IMG_4373.JPG);
     background-repeat: no-repeat;
     background-color: aliceblue;
     background-size: 100% 100%;
