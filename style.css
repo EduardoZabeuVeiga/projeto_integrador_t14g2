@@ -55,7 +55,6 @@ header a {
         text-decoration: none;
         align-items: center;
         margin: auto;
-        max-width: 800px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         border-radius: 1em;
     }
@@ -63,7 +62,6 @@ header a {
 .li {
         display: flex;
         margin-top: auto;
-        padding: 1px;
         margin: 15px;
         align-items: center;
     }
@@ -144,12 +142,6 @@ body{
     border-width: 1px;
     
         }
-
-span {
-
-    font-size: 100px;
-
-}
 
 .subtitulo{
 
@@ -455,6 +447,16 @@ h3 {
     height: 100px;
     width: 300px;
 
+}
+
+
+footer a {
+    text-decoration: none;
+    font-weight: 900px;
+    letter-spacing: 0.2em;
+    color: rgba(226, 220, 220, 0.836);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
 }
 
 
