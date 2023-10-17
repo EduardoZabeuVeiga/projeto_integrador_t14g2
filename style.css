@@ -42,7 +42,6 @@
 
 header a {
     text-decoration: none;
-    font-weight: 900px;
     letter-spacing: 0.2em;
     color: rgba(226, 220, 220, 0.836);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -54,7 +53,6 @@ header a {
         display: flex;
         text-decoration: none;
         align-items: center;
-        margin: auto;
         font-family: Georgia, 'Times New Roman', Times, serif;
         border-radius: 1em;
     }
@@ -62,9 +60,25 @@ header a {
 .li {
         display: flex;
         margin-top: auto;
-        margin: 15px;
-        align-items: center;
+        margin: 10px;
+        position: relative;
     }
+
+
+.li a:hover {
+    color: rgb(25, 21, 228);
+}
+
+
+.submenu {
+        display: flex;
+        margin-top: auto;
+        margin: 15px;
+        position: absolute;
+        left: 0;
+        align-items: center;
+        padding: 0.5em;
+} 
 
 #span1{
 
@@ -81,7 +95,7 @@ header a {
     }
 
 
-    .sec { 
+.sec { 
 
 
         display: flex;
@@ -355,7 +369,7 @@ h3 {
 
 }
 
-.pass{
+.pass {
 
     margin: 0px;
     margin-top: 50px;
@@ -447,16 +461,6 @@ h3 {
     height: 100px;
     width: 300px;
 
-}
-
-
-footer a {
-    text-decoration: none;
-    font-weight: 900px;
-    letter-spacing: 0.2em;
-    color: rgba(226, 220, 220, 0.836);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1em;
 }
 
 
