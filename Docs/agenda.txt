@@ -116,7 +116,27 @@
 		Definicao dos substituos da cada funcao caso haja impresvistos
 		horario das reunioes modificado para 09:30 as 11:00
 
-	
+
+06/10/2023 - 15:00 ~16:00 (Cario,Eduardo,Lucas)
+
+	Reuniao em grupo
+
+		Apresentacao da estrutura html
+		Detalhamento e discussao dos erros de estrutura
+		Definicao da data de entrega com reestruturacao 
+		Alinhamento para seguimento do projeto
+		Definido grupo com tres participantes
+		
+
+
+09/10/2023 - 09:30 ~ 11:00 (Cairo ,Eduardo, Lucas)
+
+	Reuniao em grupo
+
+		Previa da estilizacao das paginas
+		Discussao de elaboracao e ideias
+		
+
 		
 	
 
