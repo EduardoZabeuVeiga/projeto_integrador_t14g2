@@ -463,4 +463,135 @@ h3 {
 
 }
 
+.selecao-de-profs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.div-profs {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.selecao-de-profs .ul-tatuador {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.selecao-de-profs .div-tattoo {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.selecao-de-profs .div-tattoo2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.selecao-de-profs .div-piercer {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.selecao-de-profs .div-piercer2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.selecao-de-profs .ul-piercer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.tattoo {
+    list-style: none;
+}
+.tattoo-selecionada {
+    list-style: none;
+}
+
+.piercing {
+    list-style: none;
+}
+.piercing-selecionado {
+    list-style: none;
+}
+
+.section-tatuador .h2-tatuador {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.selecao-de-profs .h2-piercer {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+
+}
+
+.h1-profissionais {
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+
+.ul-piercer .tattoo {
+    width: 100%;
+    height: 100%;
+}
+
+.ul-piercer .piercing {
+    width: 100%;
+    height: 100%;
+}
+
+.ul-tatuador .tattoo-selecionada{
+    box-shadow: 6px 6px 12px 12px blue;
+}
+
+.ul-piercer .piercing-selecionado {
+    box-shadow: 6px 6px 12px 12px blue;
+
+}
+
+.div-label-tattoo {
+    text-align: center;
+    justify-content: center;
+}
+
+.div-label-piercer {
+    text-align: center;
+    justify-content: center;
+}
+
+
+
 
