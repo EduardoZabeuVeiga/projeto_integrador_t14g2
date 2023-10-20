@@ -4,21 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Agendamento</title>
 </head>
 <body class="background">
     <header>
-        
-        <nav class="ul">
-            <ul class="ul">
+        <nav class="dp-menu">
+            <ul>
                 <a href="./index.html">
                 <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/></a>
-                <li class="li"><a href="./index.html">Início</a></li>
-                <li class="li"><a href="./agenda.html">Agendamento</a></li>
-                <li class="li"><a href="./cadastro.html">Cadastro</a></li>
-                <li class="li"><a href="./faleconosco.html">Fale Conosco</a></li>
-                <li class="li"><a href="./profissional.html">Nossos profissionais</a></li>
+                   
+              <li><a href="./index.html">Início</a></li>
+              <li><a href="./agenda.html">Agendamento</a>
+                 <ul>
+                    <li><a href="./anm.html">Anamnese</a></li>
+                 </ul>
+               </li>
+               <li><a href="./login.html">Login</a>
+                    <ul>
+                       <li><a href="./cadastro.html">Cadastro</a></li>
+                       <li><a href="./recuperacao.html">Nova senha</a></li>
+                    </ul>
+               </li>
+                <li><a href="./profissional.html">Profissionais</a></li>
+                <li><a href="./faleconosco.html">Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
@@ -111,47 +121,73 @@
 
 
     <footer>
-        <div>
-            <h3>Localização</h3>
-            <nav>
-                <ul>
+        <div id="footer_content">
+                <ul class="footer-list">
                     <li>
-                        <span>Localização<br>
-                            R. Fulano de tal, 517 - Santo Amaro - Recife PE | CEP: 400030-170</span><br><br>
+                        <h3>Sineedy Tattoo</h3>
                     </li>
                     <li>
-                        <span>Solicite seu orçamento por email<br>
-                            projetointegradorproz@gmail.com</span><br><br>
+                      <a href="https://shorturl.at/bFHL9" class="footer-link">Av. Pref. Antônio Júlio Toledo Garcia Lopes, 599 - 2 - Jardim das Cerejeiras, Atibaia - SP, 12954-270</a>
                     </li>
                     <li>
-                        <span>Orçamento por WhatsApp<br>
-                            (11)9 1234-5678</span>
+                        <a href="#" class="footer-link">(11) 9 8002-8922</a>
                     </li>
+                    <li>
+                      <a href="#" class="footer-link">sineedytattoo@gmail.com</a>
+                    </li>
+                    <div id="footer_contato">
+                        <div id="footer_midia_social">
+                            <a href="#" class="footer-link" id="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+        
+                            <a href="#" class="footer-link" id="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+        
+                            <a href="#" class="footer-link" id="whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
                 </ul>
-            </nav>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Menu alternativo</h3>
+                    </li>
+                    <li>
+                      <a href="./index.html" class="footer-link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./agenda.html" class="footer-link">Agendamento</a>
+                    </li>
+                    <li>
+                      <a href="./profissional.html" class="footer-link">Profissionais</a>
+                    </li>
+                    <li>
+                        <a href="./login.html" class="footer-link">Login</a>
+                    </li>
+                    <li>
+                        <a href="./faleconosco.html" class="footer-link">Fale Conosco</a>
+                      </li>
+                    
+                </ul>
+            <div id="footer_subscribe">
+                <h3>Peça seu orçamento por email</h3>
+
+                <p>
+                    Digite seu email e entraremos em contato com você!
+                </p>
+                <div id="input_group">
+                        <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <h3>Institucional</h3>
-            <nav>
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="./agenda.html">Agendamento</a></li>
-                    <li><a href="./cadastro.html">Cadastro</a></li>
-                    <li><a href="./faleconosco.html">Fale Conosco</a></li>
-                    <li><a href="./profissional.html">Nossos profissionais</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div>
-            <h3>Siga-nos</h3>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-            </ul>
-        </div>
     </footer>
 </body>
 
