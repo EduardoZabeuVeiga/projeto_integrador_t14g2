@@ -8,11 +8,21 @@
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Profissionais</title>
 </head>
+
 <body class="background">
     <header>
+
+        <nav class="ul">
+            <ul class="ul">
         <nav class="dp-menu">
             <ul>
                 <a href="./index.html">
+                    <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80" /></a>
+                <li class="li"><a href="./index.html">Início</a></li>
+                <li class="li"><a href="./agenda.html">Agendamento</a></li>
+                <li class="li"><a href="./cadastro.html">Cadastro</a></li>
+                <li class="li"><a href="./faleconosco.html">Fale Conosco</a></li>
+                <li class="li"><a href="./profissional.html">Nossos profissionais</a></li>
                 <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/></a>
                    
               <li><a href="./index.html">Início</a></li>
@@ -33,73 +43,91 @@
         </nav>
     </header>
 
+    <div class="div-profs">
+        <h1 class=" h1-profissionais">Profissionais</h1>
+    </div>
+
     <main class="main">
-        <h1 class=" h1profissionais">Profissionais</h1>
 
-        <h2 class="h2tatuador">Tatuador</h2>
-        <section class="sectiontatuador">
-            <ul class="ultatuador">
-                <li class="litattoo1">
-                    <img src="./img/img_tattoo/tattoo.JPG" alt="Imagem Tattoo">
-                </li>
-                <li class="litattoo2">
-                    <img src="./img/img_tattoo/tattoo.JPG" alt="Imagem Tattoo">
-                </li>
-                <li class="litattoo3">
-                    <img src="./img/img_tattoo/tattoo.JPG" alt="Imagem Tattoo">
-                </li>
-                <li class="litattoo4">
-                    <img src="./img/img_tattoo/tattoo.JPG" alt="Imagem Tattoo">
-                </li>
-                <li class="litattoo5">
-                    <img src="./img/img_tattoo/tattoo.JPG" alt="Imagem Tattoo">
-                </li>
-                <li class="litattoo6">
-                    <img src="./img/img_tattoo/tattoo.JPG" alt="Imagem Tattoo">
-                </li>
+        <section class="section-tatuador">
+            <h2 class="h2-tatuador" id="tatuadorh2">Tatuador</h2>
+            <ul class="ul-tatuador" id="tatuadorul">                
+                <div class="div-tattoo">
+                    <li class="tattoo-selecionada" id="tattoo2">
+                        <img src="./img/img_tattoo/tattoo1.JPG" alt="Imagem Tattoo 1">
+                    </li>
+                    <li class="tattoo" id="tattoo3">
+                        <img src="./img/img_tattoo/tattoo2.JPG" alt="Imagem Tattoo 2">
+                    </li>
+                    <li class="tattoo" id="tattoo4">
+                        <img src="./img/img_tattoo/tattoo3.JPG" alt="Imagem Tattoo 3">
+                    </li>
+                </div>
+                <div class="div-tattoo2">
+                    <li class="tattoo" id="tattoo5">
+                        <img src="./img/img_tattoo/tattoo4.JPG" alt="Imagem Tattoo 4">
+                    </li>
+                    <li class="tattoo" id="tattoo6">
+                        <img src="./img/img_tattoo/tattoo5.JPG" alt="Imagem Tattoo 5">
+                    </li>
+                    <li class="tattoo" id="tattoo6">
+                        <img src="./img/img_tattoo/tattoo6.JPG" alt="Imagem Tattoo 6">
+                    </li>
+                </div>              
             </ul>
-            <label class="labeltatuador" for="tatuador"></label>
-            <select class="selecttatuador" name="tatuador" id="tatuador">
 
-                <option value="tatuador">Tatuador</option>
-                <option value="tatuador">Lucas</option>
-                <option value="tatuador">João</option>
+            <div class="div-label-tattoo">
 
-            </select>
+                <label class="label-tattoo" for="tatuador"></label>
+                <select class="select-tatuador" name="proftattoo" id="tattoosele">
+    
+                    <option value="tatuador">Tatuador</option>
+                    <option value="tatuador">Lucas</option>
+                    <option value="tatuador">João</option>
+    
+                </select>
+            </div>
+            
+           
         </section>
 
-        <section class="sectionpiercer">
-            <h2 class="h2piercer">Body Pircer</h2>
-            <ul class="ulpiecer">
-                <li class="lipiercer1">
-                    <img src="./img/img_piercing/piercing.JPG" alt="Imagem Piercing">
-                </li>
-                <li class="lipiecer2">
-                    <img src="./img/img_piercing/piercing.JPG" alt="Imagem Piercing">
-                </li>
-                <li class="lipiercer3">
-                    <img src="./img/img_piercing/piercing.JPG" alt="Imagem Piercing">
-                </li>
-                <li class="lipiercer4">
-                    <img src="./img/img_piercing/piercing.JPG" alt="Imagem Piercing">
-                </li>
-                <li class="lipiecer5">
-                    <img src="./img/img_piercing/piercing.JPG" alt="Imagem Piercing">
-                </li>
-                <li class="lipiercer6">
-                    <img src="./img/img_piercing/piercing.JPG" alt="Imagem Piercing">
-                </li>
+        <section class="section-piercer">
+            <h2 class="h2-piercer" id="piercerh2">Body Piercer</h2>
+            <ul class="ul-piercer" id="piercerul">
+                <div class="div-piercer">
+                    <li class="piercing-selecionado" id="piercer1">
+                        <img src="./img/img_piercing/piercing1.JPG" alt="Imagem Piercing 1">
+                    </li>
+                    <li class="piercing" id="piercer2">
+                        <img src="./img/img_piercing/piercing2.JPG" alt="Imagem Piercing 2">
+                    </li>
+                    <li class="piercing" id="piercer3">
+                        <img src="./img/img_piercing/piercing3.JPG" alt="Imagem Piercing 3">
+                    </li>
+                </div>
+                <div class="div-piercer2">
+                    <li class="piercing" id="piercer4">
+                        <img src="./img/img_piercing/piercing4.JPG" alt="Imagem Piercing 4">
+                    </li>
+                    <li class="piercing" id="piercer5">
+                        <img src="./img/img_piercing/piercing5.JPG" alt="Imagem Piercing 5">
+                    </li>
+                    <li class="piercing">
+                        <img src="./img/img_piercing/piercing6.JPG" alt="Imagem Piercing 6">
+                    </li>
+                </div>         
             </ul>
 
-            <label class="labelpiecer" for="piercing"></label>
-            <select class="selectpiecer" name="piercing" id="piercing">
+            <div class="div-label-piercer">
+                <label class="label-piecer" for="piercer"></label>
+            <select class="select-piecer" name="profpiercer" id="piercersele">
 
                 <option value="piecer">Body Piercer</option>
                 <option value="piercer">Eduardo</option>
                 <option value="piercer">Cairo</option>
 
             </select>
-
+            </div>          
 
         </section>
     </main>
