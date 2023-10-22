@@ -11,33 +11,32 @@
 <body class="background">
     <header id="header">
         <nav class="dp-menu">
-            <ul >
+            <ul id="menunav" >
                 <a href="./index.html">
                 <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/></a>
                    
-              <li><a href="./index.html">Início</a></li>
-            
-            
+              <li class="headernavli"><a class="headernavli" href="./index.html">Início</a></li>
+              <li><a href="./profissional.html">Profissionais</a></li>
               <li><a href="./agenda.html">Agendamento</a>
             
             
                     
                <li id="loguinhr"><a href="./login.html">Login</a>
-                    <ul>
+                    <!-- <ul>
 
-                        <li><a href="./login.html">Loguin</a>
+                        <li><a href="./login.html">.</a>
 
                         <li><a href="./cadastro.html">Cadastro</a></li>
                         
                        <li><a href="./recuperacao.html">Nova senha</a></li>
 
                        <li><a href="./anm.html">Anamnese</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
             
             
-                <li><a href="./profissional.html">Profissionais</a></li>
-                <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                
+                <!-- <li><a href="./faleconosco.html">Fale Conosco</a></li> -->
             </ul>
         </nav>
     </header>
@@ -45,7 +44,7 @@
     <main class="main">
         
 
-        <div class="divagenda">
+        <div class="divback">
             <form class="formagenda" action="">
 
                 <h1 class="h1">Agendamento</h1>
@@ -86,7 +85,7 @@
                     <option value="selserv3">Eventos</option>
 
                 </select>
-
+                <br>
                 <label class="labelagenda" for="arte">Arte:</label>
                 <select class="selectarte" name="selserv1" id="arte" required>
 
@@ -108,7 +107,7 @@
                 <br>
                 <br>
 
-                <label class="labelagenda" for="fotoexemplo">Adicione imagem do serviço desejado!</label>
+                <label class="labelagenda" for="fotoexemplo">Foto da Referencia</label></label>
                 <input class="labelagenda" type="file" name="fotoexemplo" id="fotoexemplo" required>
                 <br>
                 <br>

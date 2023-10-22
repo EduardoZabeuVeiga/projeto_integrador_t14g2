@@ -11,41 +11,48 @@
 <body class="background">
     <header id="header">
         <nav class="dp-menu">
-            <ul >
+            <ul id="menunav" >
                 <a href="./index.html">
                 <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/></a>
                    
-              <li><a href="./index.html">Início</a></li>
-            
-            
+              <li class="headernavli"><a class="headernavli" href="./index.html">Início</a></li>
+              <li><a href="./profissional.html">Profissionais</a></li>
               <li><a href="./agenda.html">Agendamento</a>
             
             
                     
                <li id="loguinhr"><a href="./login.html">Login</a>
-                    <ul>
+                    <!-- <ul>
 
-                        <li><a href="./login.html">Loguin</a>
+                        <li><a href="./login.html">.</a>
 
                         <li><a href="./cadastro.html">Cadastro</a></li>
                         
                        <li><a href="./recuperacao.html">Nova senha</a></li>
 
                        <li><a href="./anm.html">Anamnese</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
             
             
-                <li><a href="./profissional.html">Profissionais</a></li>
-                <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                
+                <!-- <li><a href="./faleconosco.html">Fale Conosco</a></li> -->
             </ul>
         </nav>
-    </header>r>
+    </header>
 
     <main class="main">
-        <h1 class="h1cadastro">Cadastro</h1>
-        <div class="div1cadastro">
+        
+        
+        
+        <div id="alinhamentoform" class="divback">
+
+            
+
             <form class="formdivcadastro" action="">
+
+                <h1 class="h1">Cadastro</h1>
+
                 <label class="label" for="nome">Nome:</label>
                 <input class="input" type="text" name="nome" id="nome" required>
                 <br>
@@ -67,9 +74,9 @@
                 <br>
 
                 <label class="label" for="uf">Estado</label>
-                <input type="input" type="text" name="estado" id="estado" required>
-
+                
                 <select class="selectcadastro" id="uf">
+                    <option value="AC">--</option>
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AP">Amapá</option>

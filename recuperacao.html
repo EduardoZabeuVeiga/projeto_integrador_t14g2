@@ -11,40 +11,39 @@
 <body id="bodyrecuperacao" class="background">
     <header id="header">
         <nav class="dp-menu">
-            <ul >
+            <ul id="menunav" >
                 <a href="./index.html">
                 <img id="logo" class="logo" src="./img/logo_proz.png" width="160" height="80"/></a>
                    
-              <li><a href="./index.html">Início</a></li>
-            
-            
+              <li class="headernavli"><a class="headernavli" href="./index.html">Início</a></li>
+              <li><a href="./profissional.html">Profissionais</a></li>
               <li><a href="./agenda.html">Agendamento</a>
             
             
                     
                <li id="loguinhr"><a href="./login.html">Login</a>
-                    <ul>
+                    <!-- <ul>
 
-                        <li><a href="./login.html">Loguin</a>
+                        <li><a href="./login.html">.</a>
 
                         <li><a href="./cadastro.html">Cadastro</a></li>
                         
                        <li><a href="./recuperacao.html">Nova senha</a></li>
 
                        <li><a href="./anm.html">Anamnese</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
             
             
-                <li><a href="./profissional.html">Profissionais</a></li>
-                <li><a href="./faleconosco.html">Fale Conosco</a></li>
+                
+                <!-- <li><a href="./faleconosco.html">Fale Conosco</a></li> -->
             </ul>
         </nav>
     </header>
 
     <main id="mainrecuperacao" class="main">
 
-        
+        <div id="alinhamentoform" class="divback">
 
         <form id="formrecuperacao" action="">
         
@@ -57,7 +56,7 @@
 
                     <label class="btn">
                         <input type="radio" class="checkboxloguin" name="nivel" value="1" id="user" checked >
-                        <div class="botao"><img src="/img/person.svg" class="svg" alt=""></div>
+                        <div class="botao"><img class="cor" src="/img/person.svg" class="svg" alt=""></div>
                         <p class="etiqueta">e-mail</p>
                     </label>
                     <br>
@@ -69,13 +68,13 @@
                     <br>
                     <label class="btn">
                         <input type="radio" class="checkboxloguin" name="nivel" value="2" id="admin">
-                        <div class="botao"><img class="cor" src="/img/telefone.png" class="svg" alt="" width="40" height="40" ></div>
+                        <div class=""><img class="cor" src="" class="svg" alt="" width="40" height="40" ></div>
                         <p class="etiqueta">Telefone</p> 
                     </label>
                     
                 </div>
                 <div class="btn2">    
-                    <input class="inputlogin" type="email" name="email" class="" placeholder="Email" required>
+                    <input class="inputlogin" type="email" name="email" class="" required>
                 </div>
 
                 <div class="">
@@ -96,6 +95,7 @@
                 
 
         </form>
+    </div>
     </main>
     <footer>
         <div id="footer_content">
